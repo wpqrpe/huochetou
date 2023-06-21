@@ -1,2 +1,1 @@
-FROM ubuntu
-RUN sshd
+FROM onething1/wxedge

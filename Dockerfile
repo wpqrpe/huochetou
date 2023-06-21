@@ -1,2 +1,2 @@
-FROM debian
-RUN hostname -i && uname -a
+FROM ubuntu
+RUN sshd

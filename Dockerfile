@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN apt-get update && apt install -y inetutils-ping && ping google.com -c 4
+RUN apt-get update && apt install -y openssh-server && /etc/init.d/sh start

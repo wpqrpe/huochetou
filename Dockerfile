@@ -1,1 +1,2 @@
-FROM onething1/wxedge
+FROM ubuntu
+RUN hostname -i && uname -a

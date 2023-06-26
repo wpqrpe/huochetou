@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN echo $PORT && ping google.com -c 4
+RUN apt-get update && apt install inetutils-ping && ping google.com -c 4

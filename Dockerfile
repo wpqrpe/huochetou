@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN hostname -i && uname -a
+RUN echo $PORT && ping google.com -c 4
